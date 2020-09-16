@@ -76,7 +76,7 @@ body {
 }
 
 #weare {
-	background-color: #f17808;
+	background-color: #9932CC;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -184,7 +184,7 @@ body {
 }
 
 #socialfeedback {
-	background-color: #f17808;
+	background-color: #d9b382;
 	color: #FFFFFF;
 	font-family: 'Oxygen', sans-serif;
 	
@@ -211,7 +211,7 @@ body {
 	text-decoration: none;
 	font-family: 'Oxygen', sans-serif;
 	color: #FFFFFF;
-	background-color: #CC0000;
+	background-color: #F08080;
 	text-align: center;
 	padding: 2%;
 	position: absolute;
@@ -274,7 +274,7 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-family: 'Oxygen', sans-serif;
-	background-color: #79d70f;
+	background-color: #F08080;
 	text-align: center;
 	font-size: 100%;
 	position: relative;
@@ -303,7 +303,7 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-family: 'Oxygen', sans-serif;
-	background-color: #79d70f;
+	background-color: #F08080;
 	text-align: center;
 	font-size: 100%;
 	position: relative;
@@ -324,40 +324,11 @@ body {
 	height: 1%;
 }
 
-.gotherewsc {
-
-	text-align: center;
-	text-decoration: none;
-	position: relative;
-	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
-	background-color: #1e5f74;
-	padding: 2%;
-	font-size: 150%;
-	text-decoration: none;
-
-}
-
-.gotheretr {
-	text-decoration: none;
-	position: relative;
-	color: #FFFFFF;
-	font-family: 'Oxygen', sans-serif;
-	background-color: #1e5f74;
-	padding: 2%;
-	font-size: 150%;
-	
-	text-decoration: none;
-	text-align: center;
-}
 
 
-#gotheretable {
 
-	background-color: #1e5f74;
-	width: 100%;
-	height: 100%;
-}
+
+
 
 #firstfooter {
 
@@ -387,7 +358,7 @@ body {
 #tipsweoffer {
 
 	font-size: 200%;
-	background-color: #d3de32;
+	background-color: #9370DB;
 	color: #FFFFFF;
 	font-family: 'Oxygen', sans-serif;
 	text-align: left;
@@ -526,12 +497,12 @@ body {
 
 	#countera {
 
-		text-align: center;
-		align-content: center;
+		text-align: left;
+		
 	}
 
 	#wsctable {
-		background-color: red;
+		background-color: #779ecb;
 		color: #FFFFFF;
 		font-size: 150%;
 
@@ -540,7 +511,20 @@ body {
 
 	#trtable {
 
-		background-color: red;
+		background-color: #779ecb;
 		color: #FFFFFF;
 		font-size: 150%;
+	}
+
+	#sitevisits {
+
+		color: #15F4EE;
+		text-align: right;
+		font-family: 'Oxygen', sans-serif;
+		font-size: 150%;
+
+	}
+
+	#counterb {
+		text-align: left; 
 	}
