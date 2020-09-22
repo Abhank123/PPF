@@ -184,7 +184,7 @@ body {
 }
 
 #socialfeedback {
-	background-color: #d9b382;
+	background-color: #A9A9A9;
 	color: #FFFFFF;
 	font-family: 'Oxygen', sans-serif;
 	
@@ -201,8 +201,8 @@ body {
 
 #dlogo {
 	width: 25%;
-	text-align: left;
-	overflow: hidden;
+	position: relative;
+	left: -33%;
 }
 
 
@@ -213,11 +213,13 @@ body {
 	color: #FFFFFF;
 	background-color: #F08080;
 	text-align: center;
-	padding: 2%;
-	position: absolute;
-	left: 60%;
+	padding: 10%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	position: relative;
+	right: -67%;
 	font-size: 100%;
-	width: 30%;
+	
 }
 
 .footer {
@@ -527,4 +529,12 @@ body {
 
 	#counterb {
 		text-align: left; 
+	}
+
+	.footer {
+
+	width: 100%;
+	text-align: center;
+	background-color: #68b0ab;
+	
 	}
