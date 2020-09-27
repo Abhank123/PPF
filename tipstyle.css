@@ -1,0 +1,122 @@
+#praepa {
+	float: left;
+}
+
+.mentext {
+	
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+
+.mentda {
+	float: right;
+	display: inline;
+	margin-left: 50%;
+	
+
+}
+
+.mentdb {
+	float: right;
+	display: inline;
+}
+
+#whatoffer {
+
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+
+}
+
+#weoffer {
+	color: #000000;
+	font-size: 1rem;
+	text-align: left;
+	background-color: #DCDCDC;
+
+}
+
+#wscc {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+}
+
+#trinhead {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000;
+}
+.wsctabbasic {
+	width: 100%;
+	background-color: #DCDCDC;
+	color: #000000;
+	border: solid;
+	border-width: 1px;
+	border-color: red;
+
+
+}
+
+.tdd {
+
+	text-align: center;
+	
+	width: 33.33%;
+	background-color: #DCDCDC;
+	
+}
+
+.wscpageanch {
+	text-decoration: none;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 2%;
+}
+
+.wscpageanch:hover {
+	background-color: red;
+	color: #000000;
+	text-decoration: none;
+}
+
+.tdda {
+	
+	
+}
+
+.tddb {
+	
+}
+
+.bord {
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#foot {
+	width: 100%;
+
+}
+
+.footext {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#immage {
+	width: 5%;
+}
+
+footer {
+
+	font-size: 0.85rem;
+}

@@ -1,0 +1,212 @@
+#praepa {
+	float: left;
+}
+
+.mentext {
+	
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+
+.mentda {
+	float: right;
+	display: inline;
+	margin-left: 50%;
+	
+
+}
+
+.mentdb {
+	float: right;
+	display: inline;
+}
+
+/*#offering {
+
+	background-color: #000000;
+	text-align: center;
+	font-size: 250%;
+	color: #FFFFFF;
+}*/
+
+#offeringtext {
+
+	background-color: #CD5C5C;
+	color: #FFFFFF;
+	font-size: 150%;
+	text-align: center;
+}
+
+#wscc {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+}
+
+#trint {
+
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 175%;
+	background-color: #696969;
+
+
+}
+
+#wscwhatisit {
+
+	color: #000000;
+	font-size: 1rem;
+	text-align: left;
+	background-color: #DCDCDC;
+
+}
+
+#trinwhatisit {
+
+	color: #FFFFFF;
+	font-size: 150%;
+	text-align: center;
+	background-color: #808080;
+
+
+}
+
+#checkoutdebate {
+
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+}
+
+#checkoutacting {
+
+	background-color: #696969;
+	color: #FFFFFF;
+	font-size: 175%;
+	text-align: center;
+
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+#downarrow {
+
+	align-content: center;
+}
+
+#arrow {
+	background-color: #000000;
+
+	text-align: center;
+}
+
+
+#download {
+
+	text-align: center;
+	background-color: #CD5C5C;
+	font-size: 150%;
+	color: #FFFFFF;
+}
+
+#clickarrow {
+	color: #FFFFFF;
+	font-size: 100%;
+}
+
+
+#biwsc {
+
+	color: #FFFFFF;
+	font-size: 150%;
+	background-color: black;
+}
+
+.blank {
+	background-color: black;
+}
+
+
+#enjoy {
+	text-align: center;
+}
+
+#downloadclick {
+
+	text-decoration: none;
+	color: #FFFFFF;
+	
+	
+}
+
+#download2 {
+	text-align: center;
+	background-color: #CD5C5C;
+	font-size: 150%;
+	color: #FFFFFF;
+}
+
+
+#downloadclick2 {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#scholhype {
+	text-decoration: underline;
+	color: black;
+}
+
+
+#debatetips {
+	background-color: #DCDCDC;
+}
+
+/*#samplemotions {
+	background-color: #FF0000;
+	font-size: 1.35rem;
+	text-align: center;
+	color: #FFFFFF;
+}*/
+
+#samplemo {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+}
+
+
+#samplemo2 {
+	background-color: #DCDCDC;
+}
+
+#foot {
+	width: 100%;
+
+}
+
+.footext {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#immage {
+	width: 5%;
+}
+
+footer {
+
+	font-size: 0.85rem;
+}
+
