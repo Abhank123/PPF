@@ -1,0 +1,136 @@
+#praepa {
+	float: left;
+}
+
+.mentext {
+	
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+
+.mentda {
+	float: right;
+	display: inline;
+	margin-left: 50%;
+	
+
+}
+
+.mentdb {
+	float: right;
+	display: inline;
+}
+
+#wscc {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.35rem;
+	background-color: #FF0000; 
+}
+
+footer {
+
+	font-size: 0.85rem;
+}
+#foot {
+	width: 100%;
+	background-color: black;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#logoo {
+	width: 20%;
+	text-align: left;
+}
+
+.footro {
+	width: 33.33%;
+}
+
+#dlogoo {
+	width: 25%;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+#footb {
+	width: 33.33%;
+	color: #FFFFFF;
+	background-color: black;
+	float: left;
+
+}
+
+.tra {
+	
+	text-align: center;
+
+}
+.quicklinkss {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#footc {
+	width: 33.33%;
+	color: #FFFFFF;
+	background-color: black;
+	float: left;
+}
+
+#footd {
+	width: 33.34%;
+	color: #ffffff;
+	background-color: black;
+	
+	text-align: center;
+}
+
+#logooo {
+	background-color: black;
+	text-align: center;
+	align-content: center;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+#trb {
+	background-color: black;
+}
+footer {
+	background-color: black;
+}
+
+.redd {
+	background-color: #FF0000;
+	text-align: center;
+	font-size: 1.25rem;
+	color: #FFFFFF;
+}
+
+.content {
+	background-color: #DCDCDC;
+}
+
+.subcontent {
+	font-size: 1.20rem;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #DC143C;
+}
+
+.imagess {
+	width: 30%;
+	text-align: center;
+}
+
+.imgwrap {
+	text-align: center;
+}
