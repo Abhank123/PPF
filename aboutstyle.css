@@ -23,23 +23,6 @@
 	display: inline;
 }
 
-#whatoffer {
-
-	text-align: center;
-	color: #FFFFFF;
-	font-size: 1.35rem;
-	background-color: #FF0000; 
-
-}
-
-#weoffer {
-	color: #000000;
-	font-size: 1rem;
-	text-align: left;
-	background-color: #DCDCDC;
-
-}
-
 #wscc {
 	text-align: center;
 	color: #FFFFFF;
@@ -47,73 +30,58 @@
 	background-color: #FF0000; 
 }
 
-#trinhead {
-	text-align: center;
+
+
+#littlebit {
 	color: #FFFFFF;
 	font-size: 1.35rem;
 	background-color: #FF0000;
-}
-.wsctabbasic {
-	width: 100%;
-	background-color: #DCDCDC;
-	color: #000000;
-	border: solid;
-	border-width: 1px;
-	border-color: red;
-
-
-}
-
-.tdd {
-
 	text-align: center;
-	
-	width: 33.33%;
-	background-color: #DCDCDC;
-	
 }
 
-.wscpageanch {
-	text-decoration: none;
-	background-color: black;
+#whoarewe {
 	color: #FFFFFF;
-	padding: 2%;
+	font-size: 1.25rem;
+	text-align: left;
+	background-color: #696969;
 }
 
-.wscpageanch:hover {
-	background-color: red;
+#whoarewedes {
 	color: #000000;
-	text-decoration: none;
+	font-size:1rem;
+	text-align: left;
+	background-color: #DCDCDC
 }
 
-.tdda {
-	
-	
+#whyarewe {
+	font-size: 1.25rem;
+	text-align: right;
+	background-color: #696969;
+	color: #FFFFFF;
 }
 
-.tddb {
-	
+#whyarewedes {
+	font-size: 1rem;
+	text-align: left;
+	background-color: #DCDCDC;
+	color: #000000;
 }
 
-.bord {
-	border: solid;
-	border-width: 1px;
-	border-color: black;
-}
+#howhavewe {
 
-#foot {
-	width: 100%;
+	color: #FFFFFF;
+	font-size: 1.25rem;
+	text-align: left;
+	background-color: #696969;
 
 }
 
-.footext {
-	text-align: center;
-	background-color: black;
-	color: white;
-}
+#howhavewedes {
+	font-size: 1rem;
+	text-align: left;
+	background-color: #DCDCDC;
+	color: #000000;
 
-#immage {
-	width: 5%;
 }
 
 footer {
@@ -193,4 +161,3 @@ footer {
 footer {
 	background-color: black;
 }
-
