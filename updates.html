@@ -5,40 +5,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial scale= 1">
 	<title>Praeparatio.org</title>
-	<link rel="stylesheet" type="text/css" href="feedbackstyle.css">
+	<link rel="stylesheet" type="text/css" href="updates.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
 </head>
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script>
-function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/1837/',
-        
-        type:'post',
-        data:$("#ffform").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-}
-</script>
 
-<header>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
-	<nav class="navbar navbar-dark bg-dark">
+
+	<header>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="wsc.js"></script>
+
+		<nav class="navbar navbar-dark bg-dark">
 		<div id="praepa"><a class="navbar-brand" href="Mainpage.html"><br>Praeparatio.Org</a></div>
 		<div class ="mentda"><a class="mentext" href="Mainpage.html"><br>Home</a></div>
 		<div class ="mentdb"><a class="mentext" href="ourtips.html"><br>Our Tips</a></div>
@@ -47,79 +28,12 @@ function SubForm (){
 		<div class ="mentdb"><a class="mentext" href="updates.html"><br>Updates</a></div>
 		<div class ="mentdb"><a class="mentext" href="about.html"><br>About</a></div>
 	</nav>
-</header>
-<body>
 
-	<div class="container-fluid" id="havesomething">Have something on your mind that can help us?</div>
-	<div class="container-fluid" id="filltheform">Fill out the feedback form and we'll incorporate it!</div>
-	<div class="container-fluid" id="wereall">We value feedback, and can't wait to see what you have.</div>
-	<br>
-	<br>
-	<!--<form name="input" action="html_form_action.jsp" method="get">
-		Username: <input type="text" name="user"><br> 
-		Password: <input type="password" name="pwd"><br> 
-		<input type="radio" name="sex" value="male">Male<br> 
-		<input type="radio" name="sex" value="female">Female<br> 
-		<input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car <br> <input type="submit" value="Submit"> 
-	</form>-->
-
-	    
-	<div class="container">    
-		<form id="ffform">
-			<div class="row">    
-				<div class="col-25">    
-					<label for="fname">First Name</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="text" id="fname" name="firstname" placeholder="Your name..">    
-				</div>    
-			</div>    
-			<div class="row">    
-				<div class="col-25">    
-					<label for="lname">Last Name</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-				</div>
-			</div>
-			<div class="row">    
-				<div class="col-25">    
-					<label for="email">Your email Id</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="email" id="email" name="mailid" placeholder="Your mail id..">    
-				</div>    
-			</div>    
-			<div class="row">    
-				<div class="col-25">    
-					<label for="country">Select Type</label>    
-				</div>    
-				<div class="col-75">    
-					<select id="country" name="feedbacktype">    
-						<option value="none">Select type</option>    
-						<option value="wsc">WSC Content</option>    
-						<option value="trinity">Trinity Content</option>    
-						<option value="Contribute">Contribution</option>
-						<option value="Aesthetics">Aesthetics</option>
-						<option value="Layout">Layout</option>
-						
-					</select>
-				</div>
-			</div>
-			<div class="row">  
-				<div class="col-25">
-					<label for="feed_back">Feedback</label>
-				</div>
-				<div class="col-75">
-					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-				</div>
-			</div>
-			
-				
-			
-		</form>
-		<button onclick="SubForm()">Submit</button>
-	</div>
+	</header>
+	<body>
+		<div class="container-fluid" id="updatee">Updates</div>
+		<div class="container-fluid" id="noupdate"><br><br><br><br><br><h1>NO UPDATES YET! STAY TUNED</h1><br><br><br><br><br></div>
+	</body>
 	<footer>
         <table id="foot">
             <tr>
@@ -179,9 +93,5 @@ function SubForm (){
             <tr id="trb" class="tra"><a id="logooo" href="ourtips.html"><img id="dlogoo" src="Discordlogo.png"></a></tr>
         </table>
 
-    </footer>    
-
-
-
-</body>
-</html>
+    </footer>
+    </html>

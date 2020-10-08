@@ -5,37 +5,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial scale= 1">
 	<title>Praeparatio.org</title>
-	<link rel="stylesheet" type="text/css" href="feedbackstyle.css">
+	<link rel="stylesheet" type="text/css" href="aboutstyle.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
 </head>
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script>
-function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/1837/',
-        
-        type:'post',
-        data:$("#ffform").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-}
-</script>
-
 <header>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="wsc.js"></script>
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 	<nav class="navbar navbar-dark bg-dark">
@@ -50,76 +29,14 @@ function SubForm (){
 </header>
 <body>
 
-	<div class="container-fluid" id="havesomething">Have something on your mind that can help us?</div>
-	<div class="container-fluid" id="filltheform">Fill out the feedback form and we'll incorporate it!</div>
-	<div class="container-fluid" id="wereall">We value feedback, and can't wait to see what you have.</div>
-	<br>
-	<br>
-	<!--<form name="input" action="html_form_action.jsp" method="get">
-		Username: <input type="text" name="user"><br> 
-		Password: <input type="password" name="pwd"><br> 
-		<input type="radio" name="sex" value="male">Male<br> 
-		<input type="radio" name="sex" value="female">Female<br> 
-		<input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car <br> <input type="submit" value="Submit"> 
-	</form>-->
+	<div class="container-fluid" id="littlebit">A little bit about us..</div>
+	<div class="container-fluid" id="whoarewe">Who are we?</div>
+	<div class="container-fluid" id="whoarewedes">Praeparatio.org is a non-profit educational organization, run by enthusiastic high school students, whose goal is to improve the communication skills of students in India. Our team consists of students who have been debaters for more than three years and have participated in the World Scholar's Cup, and have given Trinity College London examinations. Our motive is to use the skills that we have developed from these events to help other students and encourage them to practice public speaking. </div>
+	<div class="container-fluid" id="whyarewe">Why are we doing this?</div>
+	<div class="container-fluid" id="whyarewedes">After some thorough research, we discovered that a large population of Indian youth lack knowledge in communication skills, and this essentially prevents many from getting jobs. Communication skills are extremely important, and one cannot live without them. Therefore, we decided to create a website which would aim to help students develop communication skills.<br><br>Why a Website?<br><br>As a result of the COVID-19 Pandemic, in person learning was terminated and we felt that a website would be the next best option, as it can reach wide audiences.</div>
+	<div class="container-fluid" id="howhavewe">How have we developed this website and its tips?</div>
+	<div class="container-fluid" id="howhavewedes">You may be wondering why this website looks so bad, and it's because it has been coded from scratch, using Hyper-text Markup Language (HTML), Cascading Style Sheets (CSS), and JavaScript (JS). Our tips have been developed by qualified debaters and public speakers who have attended these very events.</div>
 
-	    
-	<div class="container">    
-		<form id="ffform">
-			<div class="row">    
-				<div class="col-25">    
-					<label for="fname">First Name</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="text" id="fname" name="firstname" placeholder="Your name..">    
-				</div>    
-			</div>    
-			<div class="row">    
-				<div class="col-25">    
-					<label for="lname">Last Name</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-				</div>
-			</div>
-			<div class="row">    
-				<div class="col-25">    
-					<label for="email">Your email Id</label>    
-				</div>    
-				<div class="col-75">    
-					<input type="email" id="email" name="mailid" placeholder="Your mail id..">    
-				</div>    
-			</div>    
-			<div class="row">    
-				<div class="col-25">    
-					<label for="country">Select Type</label>    
-				</div>    
-				<div class="col-75">    
-					<select id="country" name="feedbacktype">    
-						<option value="none">Select type</option>    
-						<option value="wsc">WSC Content</option>    
-						<option value="trinity">Trinity Content</option>    
-						<option value="Contribute">Contribution</option>
-						<option value="Aesthetics">Aesthetics</option>
-						<option value="Layout">Layout</option>
-						
-					</select>
-				</div>
-			</div>
-			<div class="row">  
-				<div class="col-25">
-					<label for="feed_back">Feedback</label>
-				</div>
-				<div class="col-75">
-					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-				</div>
-			</div>
-			
-				
-			
-		</form>
-		<button onclick="SubForm()">Submit</button>
-	</div>
 	<footer>
         <table id="foot">
             <tr>
@@ -179,9 +96,4 @@ function SubForm (){
             <tr id="trb" class="tra"><a id="logooo" href="ourtips.html"><img id="dlogoo" src="Discordlogo.png"></a></tr>
         </table>
 
-    </footer>    
-
-
-
-</body>
-</html>
+    </footer>
