@@ -9,6 +9,10 @@
 
 }
 
+.mentext:hover{
+  color: red;
+  text-decoration: none;
+}
 
 .mentda {
 	float: right;
